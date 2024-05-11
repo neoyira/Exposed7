@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/main_items" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_nav_install" android:id="@id/nav_item_framework" android:title="@string/nav_item_install" />
+        <item android:icon="@drawable/ic_nav_modules" android:id="@id/nav_item_modules" android:title="@string/nav_item_modules" />
+        <item android:icon="@drawable/ic_nav_downloads" android:id="@id/nav_item_downloads" android:title="@string/nav_item_download" />
+        <item android:icon="@drawable/ic_nav_logs" android:id="@id/nav_item_logs" android:title="@string/nav_item_logs" />
+    </group>
+    <group android:id="@id/option_items" android:checkableBehavior="all">
+        <item android:icon="@drawable/ic_nav_settings" android:id="@id/nav_item_settings" android:title="@string/nav_item_settings" />
+        <item android:icon="@drawable/ic_nav_support" android:id="@id/nav_item_support" android:title="@string/nav_item_support" />
+        <item android:icon="@drawable/ic_nav_about" android:id="@id/nav_item_about" android:title="@string/nav_item_about" />
+    </group>
+</menu>

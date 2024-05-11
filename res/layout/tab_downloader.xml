@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swiperefreshlayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <se.emilsjolander.stickylistheaders.StickyListHeadersListView android:scrollbarStyle="outsideOverlay" android:id="@id/listModules" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:fastScrollEnabled="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/refresh_hint" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_menu_refresh" android:tint="#ff757575" />
+                <TextView android:textSize="16.0sp" android:textStyle="italic" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_download_list" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
